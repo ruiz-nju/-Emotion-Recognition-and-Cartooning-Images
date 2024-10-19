@@ -1,0 +1,26 @@
+# 忽略所有 IDE 配置文件
+.idea/
+
+# 忽略所有缓存文件
+__pycache__/
+
+# 忽略特定的文件类型
+*.pyc
+*.pyo
+*.log
+
+# 忽略模型文件（如果你不想版本控制这些模型）
+models/
+
+# 忽略数据集（fer2013 文件夹）
+fer2013/
+
+# 忽略 UI 文件的编译输出
+*.qrc
+*_rc.py
+
+# 忽略虚拟环境或 Python 包
+Pypackage/
+
+# 忽略可能生成的 .DS_Store 文件（macOS 系统）
+.DS_Store
